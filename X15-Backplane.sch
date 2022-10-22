@@ -3119,7 +3119,7 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <text x="228.6" y="66.04" size="1.778" layer="91">12V Capacitors</text>
 <text x="86.36" y="66.04" size="1.778" layer="91">CAN io</text>
 <text x="27.94" y="45.72" size="1.778" layer="91">CAN Debug</text>
-<text x="154.94" y="81.28" size="1.778" layer="91">Data Conversion Connector</text>
+<text x="137.16" y="96.52" size="1.778" layer="91">Data Conversion Connector</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="5.08" y="7.62" smashed="yes">
@@ -3197,8 +3197,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <attribute name="NAME" x="77.724" y="38.481" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="77.724" y="33.401" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="U$9" gate="G$1" x="152.4" y="71.12" smashed="yes">
-<attribute name="NAME" x="152.4" y="76.2" size="2.54" layer="95"/>
+<instance part="U$9" gate="G$1" x="134.62" y="86.36" smashed="yes">
+<attribute name="NAME" x="134.62" y="91.44" size="2.54" layer="95"/>
 </instance>
 <instance part="C2" gate="G$1" x="205.74" y="50.8" smashed="yes">
 <attribute name="NAME" x="207.01" y="52.07" size="1.778" layer="95" align="center-left"/>
@@ -3258,8 +3258,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="6"/>
-<wire x1="177.8" y1="66.04" x2="190.5" y2="66.04" width="0.1524" layer="91"/>
-<label x="190.5" y="66.04" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<label x="172.72" y="81.28" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SWDIO_2" class="0">
@@ -3301,8 +3301,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="8"/>
-<wire x1="177.8" y1="63.5" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-<label x="190.5" y="63.5" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="78.74" x2="172.72" y2="78.74" width="0.1524" layer="91"/>
+<label x="172.72" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SWCLK_1" class="0">
@@ -3366,8 +3366,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="1"/>
-<wire x1="147.32" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
-<label x="137.16" y="71.12" size="1.778" layer="95"/>
+<wire x1="129.54" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
+<label x="119.38" y="86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND_L" class="0">
@@ -3412,13 +3412,13 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="3"/>
-<wire x1="147.32" y1="68.58" x2="134.62" y2="68.58" width="0.1524" layer="91"/>
-<label x="137.16" y="68.58" size="1.778" layer="95"/>
+<wire x1="129.54" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
+<label x="119.38" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="71.12" x2="190.5" y2="71.12" width="0.1524" layer="91"/>
-<label x="190.5" y="71.12" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
+<label x="172.72" y="86.36" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -3476,8 +3476,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="10"/>
-<wire x1="177.8" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
-<label x="190.5" y="60.96" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="76.2" x2="172.72" y2="76.2" width="0.1524" layer="91"/>
+<label x="172.72" y="76.2" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="NRST_2" class="0">
@@ -3501,8 +3501,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="11"/>
-<wire x1="147.32" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
-<label x="137.16" y="58.42" size="1.778" layer="95"/>
+<wire x1="129.54" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
+<label x="119.38" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NRST_1" class="0">
@@ -3704,8 +3704,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="13"/>
-<wire x1="147.32" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<label x="137.16" y="55.88" size="1.778" layer="95"/>
+<wire x1="129.54" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<label x="119.38" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -3723,8 +3723,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="4"/>
-<wire x1="177.8" y1="68.58" x2="190.5" y2="68.58" width="0.1524" layer="91"/>
-<label x="190.5" y="68.58" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<label x="172.72" y="83.82" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="ALERT_1" class="0">
@@ -3735,8 +3735,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="14"/>
-<wire x1="177.8" y1="55.88" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
-<label x="190.5" y="55.88" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
+<label x="172.72" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="ALERT_2" class="0">
@@ -3747,8 +3747,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="12"/>
-<wire x1="177.8" y1="58.42" x2="190.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="190.5" y="58.42" size="1.778" layer="95" align="bottom-right"/>
+<wire x1="160.02" y1="73.66" x2="172.72" y2="73.66" width="0.1524" layer="91"/>
+<label x="172.72" y="73.66" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -3759,8 +3759,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="5"/>
-<wire x1="147.32" y1="66.04" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
-<label x="137.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="129.54" y1="81.28" x2="116.84" y2="81.28" width="0.1524" layer="91"/>
+<label x="119.38" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C2_1" class="0">
@@ -3771,8 +3771,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="9"/>
-<wire x1="147.32" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<label x="137.16" y="60.96" size="1.778" layer="95"/>
+<wire x1="129.54" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
+<label x="119.38" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C2_2" class="0">
@@ -3783,8 +3783,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="7"/>
-<wire x1="147.32" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
-<label x="137.16" y="63.5" size="1.778" layer="95"/>
+<wire x1="129.54" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12L_GND" class="0">
