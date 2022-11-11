@@ -188,9 +188,9 @@
 <wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
 <wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<hole x="25.654" y="51.816" drill="9.525"/>
-<hole x="57.912" y="51.562" drill="9.525"/>
-<hole x="100.838" y="51.562" drill="9.525"/>
+<hole x="24.638" y="49.276" drill="9.525"/>
+<hole x="58.166" y="49.53" drill="9.525"/>
+<hole x="100.584" y="48.514" drill="9.525"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -1408,65 +1408,65 @@ maxErrors = 50
 <attribute name="PROD_ID" value="CAP-08390" x="101.092" y="-107.95" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="55.372" y="72.898" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="C2" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="36.576" y="51.308" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="197.866" y="71.628" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.29" y="51.562" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="39.116" y="51.308" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C2" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="36.83" y="48.514" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="198.12" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="34.544" y="48.768" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="39.37" y="48.514" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C3" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="70.104" y="51.054" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="231.394" y="85.344" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="67.818" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="72.644" y="51.054" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C3" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="70.612" y="48.26" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="231.902" y="82.55" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="68.326" y="48.514" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="73.152" y="48.26" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C4" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="82.042" y="51.054" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="243.332" y="99.314" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="79.756" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="84.582" y="51.054" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C4" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="82.042" y="48.26" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="243.332" y="96.52" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="79.756" y="48.514" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="84.582" y="48.26" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C5" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="112.776" y="51.054" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="274.066" y="113.284" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="110.49" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="115.316" y="51.054" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C5" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="112.776" y="47.752" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="274.066" y="109.982" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="110.49" y="48.006" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="115.316" y="47.752" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C6" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="124.46" y="51.054" smashed="yes" rot="R90">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="285.75" y="127.254" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="122.174" y="51.308" size="1.27" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" x="127" y="51.054" size="1.27" layer="27" rot="R90" align="center"/>
+<element name="C6" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="124.46" y="47.752" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="285.75" y="123.952" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="122.174" y="48.006" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="127" y="47.752" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="CAN_DEBUG" library="X15-Backplane Parts" package="PXC-PTSM-04-RA-1778641" value="PXC-PTSM-04-RA-1778641" x="48.768" y="92.964" smashed="yes">
 <attribute name="NAME" x="48.006" y="83.392" size="1.27" layer="25"/>
@@ -1508,14 +1508,14 @@ maxErrors = 50
 <attribute name="PROD_ID" value=" " x="107.696" y="-105.41" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.736" y="75.438" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$4" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="10.668" y="100.838" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.307" y="64.008" size="1.27" layer="25" rot="R270"/>
+<element name="U$4" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="10.922" y="101.092" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.561" y="64.262" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="U$5" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="53.34" y="100.838" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.979" y="64.008" size="1.27" layer="25" rot="R270"/>
+<element name="U$5" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="53.34" y="101.092" smashed="yes" rot="R270">
+<attribute name="NAME" x="85.471" y="62.23" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="U$6" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="95.758" y="100.838" smashed="yes" rot="R270">
-<attribute name="NAME" x="128.397" y="64.008" size="1.27" layer="25" rot="R270"/>
+<element name="U$6" library="X15-Backplane Parts" package="BACKPLANE_ESC_ADAPTER_BKP_PWR" value="BACKPLANE_ESC_ADAPTER_PWRBKP" x="95.758" y="101.092" smashed="yes" rot="R270">
+<attribute name="NAME" x="128.143" y="60.96" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="U$7" library="X15-Backplane Parts" package="DISCRETECOMPONENTS_SW_2512" package3d_urn="urn:adsk.eagle:package:24384574/2" value="" x="67.564" y="75.692" smashed="yes">
 <attribute name="NAME" x="67.564" y="77.597" size="1.27" layer="25" align="bottom-center"/>
@@ -1982,8 +1982,8 @@ maxErrors = 50
 </polygon>
 <polygon width="0.2032" layer="1">
 <vertex x="88.646" y="49.53"/>
-<vertex x="87.884" y="48.768"/>
-<vertex x="87.884" y="35.052"/>
+<vertex x="88.138" y="49.022"/>
+<vertex x="88.138" y="34.798"/>
 <vertex x="88.646" y="34.29"/>
 <vertex x="93.726" y="34.29"/>
 <vertex x="93.726" y="49.022"/>
@@ -1998,106 +1998,113 @@ maxErrors = 50
 <vertex x="136.398" y="48.768"/>
 <vertex x="135.89" y="49.276"/>
 </polygon>
-<wire x1="70.104" y1="46.854" x2="65.142" y2="46.854" width="0.762" layer="1"/>
-<wire x1="65.142" y1="46.854" x2="63.5" y2="45.212" width="0.762" layer="1"/>
-<wire x1="70.358" y1="46.6" x2="70.104" y2="46.854" width="0.762" layer="1"/>
-<wire x1="112.522" y1="39.116" x2="124.206" y2="39.116" width="5.08" layer="1"/>
-<wire x1="133.096" y1="39.116" x2="124.206" y2="39.116" width="5.08" layer="1"/>
-<wire x1="124.206" y1="39.116" x2="124.206" y2="46.6" width="0.762" layer="1"/>
-<wire x1="124.206" y1="46.6" x2="124.46" y2="46.854" width="0.762" layer="1"/>
-<wire x1="112.522" y1="39.116" x2="112.522" y2="46.6" width="0.762" layer="1"/>
-<wire x1="112.522" y1="46.6" x2="112.776" y2="46.854" width="0.762" layer="1"/>
+<wire x1="63.5" y1="45.212" x2="64.652" y2="44.06" width="0.762" layer="1"/>
+<wire x1="70.612" y1="44.06" x2="64.652" y2="44.06" width="0.762" layer="1"/>
 <polygon width="0.762" layer="1">
-<vertex x="35.56" y="50.292"/>
 <vertex x="34.29" y="49.022"/>
 <vertex x="34.29" y="34.798"/>
 <vertex x="35.306" y="33.782"/>
 <vertex x="39.624" y="33.782"/>
 <vertex x="39.624" y="48.768"/>
-<vertex x="38.1" y="50.292"/>
-<vertex x="36.576" y="50.292"/>
+<vertex x="39.37" y="49.022"/>
 </polygon>
-<wire x1="5.054" y1="37.36" x2="7.064" y2="39.37" width="5.08" layer="1"/>
-<wire x1="7.064" y1="39.37" x2="36.576" y2="39.37" width="5.08" layer="1"/>
 <polygon width="0.762" layer="1">
-<vertex x="68.834" y="49.784"/>
-<vertex x="68.072" y="49.022"/>
+<vertex x="69.088" y="48.006"/>
+<vertex x="68.072" y="46.99"/>
 <vertex x="68.072" y="35.052"/>
-<vertex x="69.342" y="33.782"/>
-<vertex x="70.358" y="33.782"/>
-<vertex x="71.882" y="33.782"/>
+<vertex x="69.85" y="33.274"/>
+<vertex x="71.374" y="33.274"/>
 <vertex x="72.898" y="34.798"/>
-<vertex x="72.898" y="48.768"/>
-<vertex x="71.882" y="49.784"/>
+<vertex x="72.898" y="46.736"/>
+<vertex x="71.628" y="48.006"/>
 </polygon>
 <polygon width="0.762" layer="1">
-<vertex x="80.772" y="49.784"/>
-<vertex x="79.756" y="48.768"/>
+<vertex x="79.756" y="46.99"/>
 <vertex x="79.756" y="34.544"/>
 <vertex x="81.026" y="33.274"/>
 <vertex x="84.582" y="33.274"/>
-<vertex x="84.836" y="33.528"/>
-<vertex x="84.836" y="49.53"/>
-<vertex x="84.582" y="49.784"/>
+<vertex x="84.582" y="46.99"/>
 </polygon>
-<wire x1="48.768" y1="39.37" x2="36.576" y2="39.37" width="5.08" layer="1"/>
-<wire x1="48.768" y1="39.37" x2="50.038" y2="38.1" width="5.08" layer="1"/>
-<wire x1="82.55" y1="38.1" x2="82.804" y2="37.846" width="5.08" layer="1"/>
-<wire x1="90.17" y1="37.846" x2="82.804" y2="37.846" width="5.08" layer="1"/>
-<wire x1="91.44" y1="39.116" x2="112.522" y2="39.116" width="5.08" layer="1"/>
-<wire x1="50.038" y1="38.1" x2="70.104" y2="38.1" width="5.08" layer="1"/>
-<wire x1="70.104" y1="38.1" x2="82.55" y2="38.1" width="5.08" layer="1"/>
-<wire x1="90.17" y1="37.846" x2="91.44" y2="39.116" width="5.08" layer="1"/>
-<wire x1="5.054" y1="39.24" x2="36.446" y2="39.24" width="0.762" layer="1"/>
-<wire x1="36.446" y1="39.24" x2="36.576" y2="39.37" width="0.762" layer="1"/>
-<wire x1="36.576" y1="39.37" x2="36.576" y2="47.108" width="0.762" layer="1"/>
-<wire x1="46.99" y1="48.514" x2="46.99" y2="45.974" width="0.762" layer="1"/>
-<wire x1="46.99" y1="45.974" x2="46.99" y2="43.434" width="0.762" layer="1"/>
-<wire x1="46.99" y1="43.434" x2="46.99" y2="40.386" width="0.762" layer="1"/>
-<wire x1="46.99" y1="40.386" x2="46.736" y2="40.132" width="0.762" layer="1"/>
-<wire x1="46.736" y1="40.132" x2="46.736" y2="38.608" width="0.762" layer="1"/>
-<wire x1="46.736" y1="38.608" x2="46.99" y2="38.354" width="0.762" layer="1"/>
-<wire x1="49.53" y1="48.514" x2="49.53" y2="45.974" width="0.762" layer="1"/>
-<wire x1="49.53" y1="45.974" x2="49.53" y2="43.434" width="0.762" layer="1"/>
-<wire x1="49.53" y1="43.434" x2="49.53" y2="40.894" width="0.762" layer="1"/>
-<wire x1="49.53" y1="40.894" x2="49.53" y2="40.132" width="0.762" layer="1"/>
-<wire x1="49.53" y1="40.132" x2="48.768" y2="39.37" width="0.762" layer="1"/>
-<wire x1="70.104" y1="38.1" x2="70.104" y2="46.346" width="0.762" layer="1"/>
-<wire x1="70.104" y1="46.346" x2="70.358" y2="46.6" width="0.762" layer="1"/>
-<wire x1="82.804" y1="37.846" x2="82.042" y2="38.608" width="0.762" layer="1"/>
-<wire x1="82.042" y1="38.608" x2="82.042" y2="46.854" width="0.762" layer="1"/>
-<wire x1="89.662" y1="45.974" x2="89.662" y2="48.514" width="0.762" layer="1"/>
-<wire x1="89.662" y1="43.434" x2="89.662" y2="40.894" width="0.762" layer="1"/>
-<wire x1="89.662" y1="40.894" x2="89.662" y2="38.354" width="0.762" layer="1"/>
-<wire x1="92.202" y1="48.514" x2="92.202" y2="45.974" width="0.762" layer="1"/>
-<wire x1="92.202" y1="45.974" x2="92.202" y2="43.434" width="0.762" layer="1"/>
-<wire x1="92.202" y1="43.434" x2="92.202" y2="40.894" width="0.762" layer="1"/>
-<wire x1="92.202" y1="48.514" x2="89.662" y2="48.514" width="0.762" layer="1"/>
-<wire x1="89.662" y1="45.974" x2="89.662" y2="43.434" width="0.762" layer="1"/>
-<wire x1="89.662" y1="45.974" x2="89.662" y2="38.354" width="0.762" layer="1"/>
-<wire x1="89.662" y1="38.354" x2="90.17" y2="37.846" width="0.762" layer="1"/>
+<wire x1="47.244" y1="48.768" x2="47.244" y2="46.228" width="0.762" layer="1"/>
+<wire x1="47.244" y1="46.228" x2="47.244" y2="43.688" width="0.762" layer="1"/>
+<wire x1="49.784" y1="48.768" x2="49.784" y2="46.228" width="0.762" layer="1"/>
+<wire x1="49.784" y1="46.228" x2="49.784" y2="43.688" width="0.762" layer="1"/>
+<wire x1="49.784" y1="43.688" x2="49.784" y2="41.148" width="0.762" layer="1"/>
+<wire x1="89.662" y1="46.228" x2="89.662" y2="48.768" width="0.762" layer="1"/>
+<wire x1="89.662" y1="43.688" x2="89.662" y2="41.148" width="0.762" layer="1"/>
+<wire x1="89.662" y1="41.148" x2="89.662" y2="38.608" width="0.762" layer="1"/>
+<wire x1="92.202" y1="48.768" x2="92.202" y2="46.228" width="0.762" layer="1"/>
+<wire x1="92.202" y1="46.228" x2="92.202" y2="43.688" width="0.762" layer="1"/>
+<wire x1="92.202" y1="43.688" x2="92.202" y2="41.148" width="0.762" layer="1"/>
+<wire x1="92.202" y1="48.768" x2="89.662" y2="48.768" width="0.762" layer="1"/>
+<wire x1="89.662" y1="46.228" x2="89.662" y2="43.688" width="0.762" layer="1"/>
+<wire x1="89.662" y1="46.228" x2="89.662" y2="38.608" width="0.762" layer="1"/>
 <polygon width="0.762" layer="1">
-<vertex x="123.19" y="50.038"/>
-<vertex x="121.666" y="48.514"/>
+<vertex x="121.666" y="46.482"/>
 <vertex x="121.666" y="35.56"/>
 <vertex x="122.428" y="34.798"/>
 <vertex x="126.492" y="34.798"/>
 <vertex x="127" y="35.306"/>
-<vertex x="127" y="48.768"/>
-<vertex x="125.73" y="50.038"/>
+<vertex x="127" y="46.482"/>
 </polygon>
 <polygon width="0.762" layer="1">
-<vertex x="111.506" y="49.784"/>
-<vertex x="110.236" y="48.514"/>
+<vertex x="111.252" y="46.99"/>
+<vertex x="110.236" y="45.974"/>
 <vertex x="110.236" y="35.56"/>
 <vertex x="110.744" y="35.052"/>
 <vertex x="114.046" y="35.052"/>
 <vertex x="115.062" y="36.068"/>
-<vertex x="115.062" y="49.53"/>
-<vertex x="114.808" y="49.784"/>
+<vertex x="115.062" y="46.99"/>
 </polygon>
-<wire x1="132.08" y1="40.894" x2="133.096" y2="39.878" width="0.2032" layer="1"/>
-<wire x1="133.096" y1="39.878" x2="133.096" y2="39.116" width="0.2032" layer="1"/>
+<wire x1="7.62" y1="37.36" x2="36.83" y2="37.36" width="5.08" layer="1"/>
+<wire x1="36.83" y1="37.36" x2="43.666" y2="37.36" width="5.08" layer="1"/>
+<wire x1="47.244" y1="43.688" x2="47.244" y2="41.148" width="0.762" layer="1"/>
+<wire x1="47.244" y1="41.148" x2="47.244" y2="38.608" width="0.762" layer="1"/>
+<wire x1="47.244" y1="38.608" x2="47.244" y2="37.592" width="0.762" layer="1"/>
+<wire x1="47.244" y1="36.068" x2="47.244" y2="37.592" width="0.762" layer="1"/>
+<wire x1="47.244" y1="36.068" x2="49.784" y2="36.068" width="0.762" layer="1"/>
+<wire x1="49.784" y1="41.148" x2="49.784" y2="38.608" width="0.762" layer="1"/>
+<wire x1="49.784" y1="38.608" x2="49.784" y2="37.338" width="0.762" layer="1"/>
+<wire x1="49.784" y1="37.338" x2="49.784" y2="36.068" width="0.762" layer="1"/>
+<wire x1="43.666" y1="37.36" x2="47.012" y2="37.36" width="5.08" layer="1"/>
+<wire x1="47.012" y1="37.36" x2="47.244" y2="37.592" width="0.762" layer="1"/>
+<wire x1="47.012" y1="37.36" x2="49.762" y2="37.36" width="5.08" layer="1"/>
+<wire x1="49.762" y1="37.36" x2="49.784" y2="37.338" width="0.762" layer="1"/>
+<wire x1="49.762" y1="37.36" x2="70.612" y2="37.36" width="5.08" layer="1"/>
+<wire x1="70.612" y1="37.36" x2="82.042" y2="37.36" width="5.08" layer="1"/>
+<wire x1="82.042" y1="37.36" x2="86.592" y2="37.36" width="5.08" layer="1"/>
+<wire x1="89.662" y1="38.608" x2="89.662" y2="37.338" width="0.762" layer="1"/>
+<wire x1="89.662" y1="37.338" x2="89.662" y2="36.068" width="0.762" layer="1"/>
+<wire x1="89.662" y1="36.068" x2="92.202" y2="36.068" width="0.762" layer="1"/>
+<wire x1="92.202" y1="36.068" x2="92.202" y2="37.338" width="0.762" layer="1"/>
+<wire x1="92.202" y1="37.338" x2="92.202" y2="38.608" width="0.762" layer="1"/>
+<wire x1="92.202" y1="38.608" x2="92.202" y2="41.148" width="0.762" layer="1"/>
+<wire x1="86.592" y1="37.36" x2="89.64" y2="37.36" width="5.08" layer="1"/>
+<wire x1="89.64" y1="37.36" x2="89.662" y2="37.338" width="0.762" layer="1"/>
+<wire x1="89.662" y1="37.338" x2="92.202" y2="37.338" width="5.08" layer="1"/>
+<wire x1="132.08" y1="48.768" x2="132.08" y2="46.228" width="0.762" layer="1"/>
+<wire x1="132.08" y1="46.228" x2="132.08" y2="43.688" width="0.762" layer="1"/>
+<wire x1="132.08" y1="43.688" x2="132.08" y2="41.148" width="0.762" layer="1"/>
+<wire x1="132.08" y1="41.148" x2="132.08" y2="38.608" width="0.762" layer="1"/>
+<wire x1="132.08" y1="38.608" x2="132.08" y2="37.338" width="0.762" layer="1"/>
+<wire x1="132.08" y1="37.338" x2="132.08" y2="36.068" width="0.762" layer="1"/>
+<wire x1="132.08" y1="36.068" x2="134.62" y2="36.068" width="0.762" layer="1"/>
+<wire x1="134.62" y1="36.068" x2="134.62" y2="38.608" width="0.762" layer="1"/>
+<wire x1="134.62" y1="38.608" x2="134.62" y2="41.148" width="0.762" layer="1"/>
+<wire x1="134.62" y1="41.148" x2="134.62" y2="43.688" width="0.762" layer="1"/>
+<wire x1="134.62" y1="43.688" x2="134.62" y2="46.228" width="0.762" layer="1"/>
+<wire x1="134.62" y1="46.228" x2="134.62" y2="48.768" width="0.762" layer="1"/>
+<wire x1="134.62" y1="48.768" x2="132.08" y2="48.768" width="0.762" layer="1"/>
+<wire x1="92.202" y1="37.338" x2="112.776" y2="37.338" width="5.08" layer="1"/>
+<wire x1="112.776" y1="37.338" x2="124.46" y2="37.338" width="5.08" layer="1"/>
+<wire x1="124.46" y1="37.338" x2="132.08" y2="37.338" width="5.08" layer="1"/>
+<wire x1="124.46" y1="43.552" x2="124.46" y2="37.338" width="0.762" layer="1"/>
+<wire x1="112.776" y1="43.552" x2="112.776" y2="37.338" width="0.762" layer="1"/>
+<wire x1="82.042" y1="44.06" x2="82.042" y2="37.36" width="0.762" layer="1"/>
+<wire x1="70.612" y1="44.06" x2="70.612" y2="37.36" width="0.762" layer="1"/>
+<wire x1="36.83" y1="44.314" x2="36.83" y2="37.36" width="0.762" layer="1"/>
+<wire x1="47.244" y1="48.768" x2="49.784" y2="48.768" width="0.762" layer="1"/>
+<wire x1="7.594" y1="37.36" x2="7.62" y2="37.36" width="0.762" layer="1"/>
 </signal>
 <signal name="12VGND">
 <contactref element="U$4" pad="GND@1"/>
@@ -2249,86 +2256,109 @@ maxErrors = 50
 <vertex x="136.144" y="50.292"/>
 <vertex x="136.144" y="64.77"/>
 </polygon>
-<wire x1="5.054" y1="64.24" x2="7.826" y2="61.468" width="5.08" layer="1"/>
-<wire x1="133.096" y1="62.484" x2="124.968" y2="62.484" width="5.08" layer="1"/>
-<wire x1="124.968" y1="62.484" x2="112.522" y2="62.484" width="5.08" layer="1"/>
-<wire x1="112.522" y1="62.484" x2="112.522" y2="55.508" width="0.762" layer="1"/>
-<wire x1="112.522" y1="55.508" x2="112.776" y2="55.254" width="0.762" layer="1"/>
-<wire x1="124.968" y1="62.484" x2="124.968" y2="55.762" width="0.762" layer="1"/>
-<wire x1="124.968" y1="55.762" x2="124.46" y2="55.254" width="0.762" layer="1"/>
 <polygon width="0.762" layer="1">
-<vertex x="35.306" y="66.04"/>
+<vertex x="34.544" y="65.278"/>
 <vertex x="33.528" y="64.262"/>
-<vertex x="33.528" y="53.848"/>
-<vertex x="35.56" y="51.816"/>
-<vertex x="36.83" y="51.816"/>
-<vertex x="38.1" y="51.816"/>
-<vertex x="39.624" y="53.34"/>
+<vertex x="33.528" y="51.816"/>
+<vertex x="35.306" y="50.038"/>
+<vertex x="38.862" y="50.038"/>
+<vertex x="39.624" y="50.8"/>
 <vertex x="39.624" y="65.024"/>
-<vertex x="39.116" y="65.532"/>
-<vertex x="38.608" y="66.04"/>
-</polygon>
-<wire x1="7.826" y1="61.468" x2="36.068" y2="61.468" width="5.08" layer="1"/>
-<wire x1="36.068" y1="61.468" x2="36.322" y2="61.722" width="5.08" layer="1"/>
-<wire x1="48.514" y1="61.722" x2="36.322" y2="61.722" width="5.08" layer="1"/>
-<polygon width="0.762" layer="1">
-<vertex x="68.326" y="67.31"/>
-<vertex x="67.056" y="66.04"/>
-<vertex x="67.056" y="63.5"/>
-<vertex x="67.056" y="53.594"/>
-<vertex x="69.088" y="51.562"/>
-<vertex x="72.136" y="51.562"/>
-<vertex x="73.152" y="52.578"/>
-<vertex x="73.152" y="65.786"/>
-<vertex x="71.628" y="67.31"/>
+<vertex x="39.37" y="65.278"/>
 </polygon>
 <polygon width="0.762" layer="1">
-<vertex x="80.772" y="67.564"/>
-<vertex x="79.248" y="66.04"/>
-<vertex x="79.248" y="53.594"/>
-<vertex x="81.026" y="51.816"/>
-<vertex x="84.074" y="51.816"/>
-<vertex x="84.836" y="52.578"/>
-<vertex x="84.836" y="64.008"/>
-<vertex x="84.836" y="66.294"/>
-<vertex x="83.566" y="67.564"/>
+<vertex x="68.834" y="66.548"/>
+<vertex x="67.564" y="65.278"/>
+<vertex x="67.564" y="50.8"/>
+<vertex x="69.088" y="49.276"/>
+<vertex x="72.39" y="49.276"/>
+<vertex x="73.66" y="50.546"/>
+<vertex x="73.66" y="65.024"/>
+<vertex x="72.136" y="66.548"/>
 </polygon>
-<wire x1="46.99" y1="61.214" x2="48.26" y2="62.484" width="5.08" layer="1"/>
-<wire x1="111.76" y1="61.722" x2="112.522" y2="62.484" width="5.08" layer="1"/>
-<wire x1="48.26" y1="62.484" x2="69.85" y2="62.484" width="5.08" layer="1"/>
-<wire x1="69.85" y1="62.484" x2="80.772" y2="62.484" width="5.08" layer="1"/>
-<wire x1="80.772" y1="62.484" x2="81.534" y2="61.722" width="5.08" layer="1"/>
-<wire x1="81.534" y1="61.722" x2="89.662" y2="61.722" width="5.08" layer="1"/>
-<wire x1="89.662" y1="61.722" x2="111.76" y2="61.722" width="5.08" layer="1"/>
-<wire x1="36.068" y1="61.468" x2="36.576" y2="60.96" width="0.762" layer="1"/>
-<wire x1="36.576" y1="60.96" x2="36.576" y2="55.508" width="0.762" layer="1"/>
-<wire x1="89.662" y1="51.054" x2="92.202" y2="51.054" width="0.762" layer="1"/>
-<wire x1="92.202" y1="51.054" x2="92.202" y2="53.594" width="0.762" layer="1"/>
-<wire x1="92.202" y1="53.594" x2="92.202" y2="56.134" width="0.762" layer="1"/>
-<wire x1="89.662" y1="51.054" x2="89.662" y2="53.594" width="0.762" layer="1"/>
-<wire x1="89.662" y1="53.594" x2="89.662" y2="56.134" width="0.762" layer="1"/>
-<wire x1="89.662" y1="56.134" x2="89.662" y2="58.674" width="0.762" layer="1"/>
-<wire x1="89.662" y1="58.674" x2="89.662" y2="61.722" width="0.762" layer="1"/>
-<wire x1="92.202" y1="56.134" x2="92.202" y2="58.674" width="0.762" layer="1"/>
-<wire x1="92.202" y1="58.674" x2="92.202" y2="61.214" width="0.762" layer="1"/>
-<wire x1="80.772" y1="62.484" x2="82.042" y2="61.214" width="0.762" layer="1"/>
-<wire x1="82.042" y1="61.214" x2="82.042" y2="55.254" width="0.762" layer="1"/>
 <polygon width="0.762" layer="1">
-<vertex x="122.936" y="68.072"/>
-<vertex x="121.666" y="66.802"/>
-<vertex x="121.666" y="53.086"/>
-<vertex x="122.936" y="51.816"/>
-<vertex x="126.746" y="51.816"/>
-<vertex x="127.508" y="52.578"/>
-<vertex x="127.508" y="67.564"/>
-<vertex x="127" y="68.072"/>
+<vertex x="80.264" y="65.532"/>
+<vertex x="78.74" y="64.008"/>
+<vertex x="78.74" y="51.562"/>
+<vertex x="80.518" y="49.784"/>
+<vertex x="83.566" y="49.784"/>
+<vertex x="84.328" y="50.546"/>
+<vertex x="84.328" y="64.262"/>
+<vertex x="83.058" y="65.532"/>
 </polygon>
-<wire x1="49.53" y1="61.214" x2="49.022" y2="61.214" width="0.2032" layer="1"/>
-<wire x1="49.022" y1="61.214" x2="48.514" y2="61.722" width="0.2032" layer="1"/>
-<wire x1="132.08" y1="61.214" x2="132.08" y2="61.468" width="0.2032" layer="1"/>
-<wire x1="132.08" y1="61.468" x2="133.096" y2="62.484" width="0.2032" layer="1"/>
-<wire x1="70.104" y1="55.254" x2="70.104" y2="62.23" width="0.762" layer="1"/>
-<wire x1="70.104" y1="62.23" x2="69.85" y2="62.484" width="0.762" layer="1"/>
+<wire x1="89.662" y1="51.308" x2="92.202" y2="51.308" width="0.762" layer="1"/>
+<wire x1="92.202" y1="51.308" x2="92.202" y2="53.848" width="0.762" layer="1"/>
+<wire x1="92.202" y1="53.848" x2="92.202" y2="56.388" width="0.762" layer="1"/>
+<wire x1="89.662" y1="51.308" x2="89.662" y2="53.848" width="0.762" layer="1"/>
+<wire x1="89.662" y1="53.848" x2="89.662" y2="56.388" width="0.762" layer="1"/>
+<wire x1="89.662" y1="56.388" x2="89.662" y2="58.928" width="0.762" layer="1"/>
+<wire x1="92.202" y1="56.388" x2="92.202" y2="58.928" width="0.762" layer="1"/>
+<wire x1="92.202" y1="58.928" x2="92.202" y2="59.182" width="0.762" layer="1"/>
+<polygon width="0.762" layer="1">
+<vertex x="122.682" y="64.77"/>
+<vertex x="121.412" y="63.5"/>
+<vertex x="121.412" y="49.784"/>
+<vertex x="122.682" y="48.514"/>
+<vertex x="126.492" y="48.514"/>
+<vertex x="127.254" y="49.276"/>
+<vertex x="127.254" y="64.262"/>
+<vertex x="126.746" y="64.77"/>
+</polygon>
+<wire x1="92.202" y1="59.182" x2="92.202" y2="61.468" width="0.762" layer="1"/>
+<wire x1="47.244" y1="51.308" x2="47.244" y2="53.848" width="0.762" layer="1"/>
+<wire x1="47.244" y1="53.848" x2="47.244" y2="56.388" width="0.762" layer="1"/>
+<wire x1="47.244" y1="56.388" x2="47.244" y2="58.928" width="0.762" layer="1"/>
+<wire x1="47.244" y1="58.928" x2="47.244" y2="61.468" width="0.762" layer="1"/>
+<wire x1="47.244" y1="61.468" x2="47.244" y2="62.484" width="0.762" layer="1"/>
+<wire x1="47.244" y1="64.008" x2="47.244" y2="62.484" width="0.762" layer="1"/>
+<wire x1="47.244" y1="64.008" x2="49.784" y2="64.008" width="0.762" layer="1"/>
+<wire x1="49.784" y1="64.008" x2="49.784" y2="61.468" width="0.762" layer="1"/>
+<wire x1="49.784" y1="61.468" x2="49.784" y2="58.928" width="0.762" layer="1"/>
+<wire x1="49.784" y1="58.928" x2="49.784" y2="56.388" width="0.762" layer="1"/>
+<wire x1="49.784" y1="56.388" x2="49.784" y2="53.848" width="0.762" layer="1"/>
+<wire x1="49.784" y1="53.848" x2="49.784" y2="51.308" width="0.762" layer="1"/>
+<wire x1="47.244" y1="51.308" x2="49.784" y2="51.308" width="0.762" layer="1"/>
+<wire x1="89.662" y1="58.928" x2="89.662" y2="59.436" width="0.762" layer="1"/>
+<wire x1="89.662" y1="59.436" x2="89.662" y2="64.008" width="0.762" layer="1"/>
+<wire x1="89.662" y1="64.008" x2="92.202" y2="64.008" width="0.762" layer="1"/>
+<wire x1="92.202" y1="64.008" x2="92.202" y2="61.468" width="0.762" layer="1"/>
+<wire x1="134.62" y1="64.008" x2="134.62" y2="61.468" width="0.762" layer="1"/>
+<wire x1="134.62" y1="61.468" x2="134.62" y2="58.928" width="0.762" layer="1"/>
+<wire x1="134.62" y1="58.928" x2="134.62" y2="56.388" width="0.762" layer="1"/>
+<wire x1="134.62" y1="56.388" x2="134.62" y2="53.848" width="0.762" layer="1"/>
+<wire x1="134.62" y1="53.848" x2="134.62" y2="51.308" width="0.762" layer="1"/>
+<wire x1="134.62" y1="51.308" x2="132.08" y2="51.308" width="0.762" layer="1"/>
+<wire x1="132.08" y1="51.308" x2="132.08" y2="53.848" width="0.762" layer="1"/>
+<wire x1="132.08" y1="53.848" x2="132.08" y2="56.388" width="0.762" layer="1"/>
+<wire x1="132.08" y1="56.388" x2="132.08" y2="58.928" width="0.762" layer="1"/>
+<wire x1="132.08" y1="58.928" x2="132.08" y2="59.182" width="0.762" layer="1"/>
+<wire x1="132.08" y1="59.182" x2="132.08" y2="61.468" width="0.762" layer="1"/>
+<wire x1="132.08" y1="61.468" x2="132.08" y2="64.008" width="0.762" layer="1"/>
+<wire x1="132.08" y1="64.008" x2="134.62" y2="64.008" width="0.762" layer="1"/>
+<wire x1="7.594" y1="59.24" x2="36.83" y2="59.24" width="5.08" layer="1"/>
+<wire x1="36.83" y1="59.24" x2="46.932" y2="59.24" width="5.08" layer="1"/>
+<wire x1="46.932" y1="59.24" x2="47.244" y2="58.928" width="0.762" layer="1"/>
+<wire x1="46.932" y1="59.24" x2="49.472" y2="59.24" width="5.08" layer="1"/>
+<wire x1="49.472" y1="59.24" x2="49.784" y2="58.928" width="0.762" layer="1"/>
+<wire x1="49.472" y1="59.24" x2="70.612" y2="59.24" width="5.08" layer="1"/>
+<wire x1="70.612" y1="59.24" x2="82.042" y2="59.24" width="5.08" layer="1"/>
+<wire x1="82.042" y1="59.24" x2="89.466" y2="59.24" width="5.08" layer="1"/>
+<wire x1="89.466" y1="59.24" x2="89.662" y2="59.436" width="0.762" layer="1"/>
+<wire x1="89.466" y1="59.24" x2="92.144" y2="59.24" width="5.08" layer="1"/>
+<wire x1="92.144" y1="59.24" x2="92.202" y2="59.182" width="0.762" layer="1"/>
+<wire x1="92.144" y1="59.24" x2="112.522" y2="59.24" width="5.08" layer="1"/>
+<wire x1="112.522" y1="59.24" x2="124.206" y2="59.24" width="5.08" layer="1"/>
+<wire x1="124.206" y1="59.24" x2="132.022" y2="59.24" width="5.08" layer="1"/>
+<wire x1="132.022" y1="59.24" x2="132.08" y2="59.182" width="0.762" layer="1"/>
+<wire x1="132.022" y1="59.24" x2="134.308" y2="59.24" width="5.08" layer="1"/>
+<wire x1="134.308" y1="59.24" x2="134.62" y2="58.928" width="0.762" layer="1"/>
+<wire x1="124.206" y1="59.24" x2="124.46" y2="58.986" width="0.762" layer="1"/>
+<wire x1="124.46" y1="58.986" x2="124.46" y2="51.952" width="0.762" layer="1"/>
+<wire x1="112.522" y1="59.24" x2="112.776" y2="58.986" width="0.762" layer="1"/>
+<wire x1="112.776" y1="58.986" x2="112.776" y2="51.952" width="0.762" layer="1"/>
+<wire x1="82.042" y1="59.24" x2="82.042" y2="52.46" width="0.762" layer="1"/>
+<wire x1="70.612" y1="52.46" x2="70.612" y2="59.24" width="0.762" layer="1"/>
+<wire x1="36.83" y1="52.714" x2="36.83" y2="59.24" width="0.762" layer="1"/>
 </signal>
 <signal name="12V_L">
 <contactref element="PXC-8-RA-1" pad="8"/>
@@ -2721,14 +2751,14 @@ maxErrors = 50
 </signal>
 <signal name="12GND">
 <polygon width="0.762" layer="1">
-<vertex x="111.252" y="67.818"/>
-<vertex x="109.728" y="66.294"/>
-<vertex x="109.728" y="53.34"/>
-<vertex x="111.252" y="51.816"/>
-<vertex x="115.062" y="51.816"/>
-<vertex x="116.078" y="52.832"/>
-<vertex x="116.078" y="66.548"/>
-<vertex x="114.808" y="67.818"/>
+<vertex x="110.744" y="64.262"/>
+<vertex x="109.982" y="63.5"/>
+<vertex x="109.982" y="49.784"/>
+<vertex x="111.252" y="48.514"/>
+<vertex x="115.316" y="48.514"/>
+<vertex x="116.332" y="49.53"/>
+<vertex x="116.332" y="62.992"/>
+<vertex x="115.062" y="64.262"/>
 </polygon>
 </signal>
 </signals>
