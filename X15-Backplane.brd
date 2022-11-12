@@ -1487,7 +1487,7 @@ maxErrors = 50
 <attribute name="NAME" x="153.924" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="158.496" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="PXC-8-RA-1" library="X15-Backplane Parts" package="PXC-8-RA-1778683" package3d_urn="urn:adsk.eagle:package:25224885/2" value="PXC-8-RA-1778683" x="89.916" y="94.742" smashed="yes" rot="R180">
+<element name="SOLENOID" library="X15-Backplane Parts" package="PXC-8-RA-1778683" package3d_urn="urn:adsk.eagle:package:25224885/2" value="PXC-8-RA-1778683" x="89.916" y="94.742" smashed="yes" rot="R180">
 <attribute name="SPICEPREFIX" value="X" x="37.846" y="263.652" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="PXC-8-RA-1778683" library="X15-Backplane Parts" package="PXC-8-RA-1778683" package3d_urn="urn:adsk.eagle:package:25224885/2" value="PXC-8-RA-1778683" x="11.938" y="15.748" smashed="yes">
@@ -1525,7 +1525,7 @@ maxErrors = 50
 <attribute name="NAME" x="2.286" y="95.363" size="1.27" layer="25"/>
 <attribute name="VALUE" x="2.54" y="86.239" size="1.27" layer="27" align="top-left"/>
 </element>
-<element name="U$9" library="X15-Backplane Parts" package="SAMTEC-CLT-107-01-X-D-BACKPLANE" value="BACKPLANE-&gt;DATACONV" x="18.288" y="77.978" smashed="yes" rot="R90">
+<element name="DATA_CON_CONN" library="X15-Backplane Parts" package="SAMTEC-CLT-107-01-X-D-BACKPLANE" value="BACKPLANE-&gt;DATACONV" x="18.288" y="77.978" smashed="yes" rot="R90">
 <attribute name="NAME" x="14.971" y="71.063" size="1.016" layer="25" rot="R90"/>
 </element>
 <element name="C10" library="X15-Backplane Parts" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="77.978" y="12.954" smashed="yes" rot="R270">
@@ -1564,7 +1564,7 @@ maxErrors = 50
 <attribute name="NAME" x="67.564" y="12.954" size="1.27" layer="25" rot="R270" align="center"/>
 <attribute name="VALUE" x="62.738" y="13.208" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
-<element name="ESC_CONTROL1" library="X15-Backplane Parts" package="BACKPLANE_CONNECTORS_BKP" value="BACKPLANE_CONNECTORSBKP" x="104.902" y="8.382" smashed="yes" rot="R270"/>
+<element name="ESC_CONTROLLER" library="X15-Backplane Parts" package="BACKPLANE_CONNECTORS_BKP" value="BACKPLANE_CONNECTORSBKP" x="104.902" y="8.382" smashed="yes" rot="R270"/>
 <element name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED_3MM" package3d_urn="urn:adsk.eagle:package:39361/1" value="" x="143.256" y="34.036" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.97" y="34.036" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-08794" x="112.776" y="-18.034" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1578,7 +1578,7 @@ maxErrors = 50
 <element name="PI_SHIELD_CONN1" library="X15-Backplane Parts" package="IPL7X2" value="8X_CONN" x="137.16" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="137.16" y="86.36" size="1.27" layer="25" rot="R180"/>
 </element>
-<element name="J3" library="X15-Backplane Parts" package="SAMTEC_IPL1-103-01-L-S-K" value="IPL1-103-01-L-S-K" x="145.796" y="23.114" smashed="yes" rot="R270">
+<element name="ROBOT_CONN" library="X15-Backplane Parts" package="SAMTEC_IPL1-103-01-L-S-K" value="IPL1-103-01-L-S-K" x="145.796" y="23.114" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Samtec" x="157.226" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MAXIMUM_PACKAGE_HEIGHT" value="8.43 mm" x="157.226" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="149.098" y="27.686" size="1.27" layer="25" rot="R270"/>
@@ -1586,7 +1586,7 @@ maxErrors = 50
 <attribute name="STANDARD" value="Manufacturer Recommendations" x="157.226" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="141.478" y="27.686" size="1.27" layer="27" rot="R270" align="top-left"/>
 </element>
-<element name="J4" library="X15-Backplane Parts" package="SAMTEC_IPL1-104-01-X-S-K" value="IPL1-104-01-X-S-K" x="6.858" y="8.128" smashed="yes" rot="R270">
+<element name="7.4V_CONN" library="X15-Backplane Parts" package="SAMTEC_IPL1-104-01-X-S-K" value="IPL1-104-01-X-S-K" x="6.858" y="8.128" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="SAMTEC" x="6.858" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="10.164" y="13.97" size="1.27" layer="25" rot="R270"/>
 <attribute name="PARTREV" value="E" x="6.858" y="48.768" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1628,7 +1628,7 @@ maxErrors = 50
 <contactref element="PXC-8-RA-1778683" pad="1"/>
 </signal>
 <signal name="SWDIO_4">
-<contactref element="U$9" pad="6"/>
+<contactref element="DATA_CON_CONN" pad="6"/>
 </signal>
 <signal name="PROG_3">
 <contactref element="PXC-8-RA-1778683" pad="5"/>
@@ -1637,7 +1637,7 @@ maxErrors = 50
 <contactref element="PXC-8-RA-1778683" pad="7"/>
 </signal>
 <signal name="SWCLK_4">
-<contactref element="U$9" pad="8"/>
+<contactref element="DATA_CON_CONN" pad="8"/>
 </signal>
 <signal name="SWCLK_IN">
 <contactref element="PXC-8-RA-1778683" pad="2"/>
@@ -1647,11 +1647,11 @@ maxErrors = 50
 <contactref element="R4" pad="1"/>
 <contactref element="U$8" pad="04"/>
 <contactref element="CAN_DEBUG" pad="4"/>
-<contactref element="U$9" pad="1"/>
-<contactref element="ESC_CONTROL1" pad="2"/>
-<contactref element="ESC_CONTROL1" pad="4"/>
-<contactref element="ESC_CONTROL1" pad="1"/>
-<contactref element="ESC_CONTROL1" pad="3"/>
+<contactref element="DATA_CON_CONN" pad="1"/>
+<contactref element="ESC_CONTROLLER" pad="2"/>
+<contactref element="ESC_CONTROLLER" pad="4"/>
+<contactref element="ESC_CONTROLLER" pad="1"/>
+<contactref element="ESC_CONTROLLER" pad="3"/>
 <contactref element="PI_SHIELD_CONN1" pad="12"/>
 <contactref element="D7" pad="A"/>
 <via x="80.772" y="22.098" extent="1-16" drill="0.8"/>
@@ -1721,7 +1721,7 @@ maxErrors = 50
 <contactref element="D4" pad="C"/>
 <contactref element="R4" pad="2"/>
 <contactref element="U$7" pad="2"/>
-<contactref element="ESC_CONTROL1" pad="6"/>
+<contactref element="ESC_CONTROLLER" pad="6"/>
 <wire x1="19.038" y1="22.948" x2="19.038" y2="9.918" width="0.2032" layer="16"/>
 <wire x1="19.038" y1="9.918" x2="21.082" y2="7.874" width="0.2032" layer="16"/>
 <wire x1="21.082" y1="7.874" x2="39.116" y2="7.874" width="0.2032" layer="16"/>
@@ -1730,12 +1730,12 @@ maxErrors = 50
 <wire x1="101.6" y1="4.064" x2="102.362" y2="3.302" width="0.2032" layer="16"/>
 <wire x1="102.362" y1="3.302" x2="103.886" y2="3.302" width="0.2032" layer="16"/>
 <wire x1="103.886" y1="3.302" x2="147.96403125" y2="3.302" width="0.2032" layer="16"/>
-<wire x1="147.96403125" y1="3.302" x2="158.115" y2="13.45296875" width="0.2032" layer="16"/>
-<wire x1="158.115" y1="62.611" x2="157.988" y2="62.738" width="0.2032" layer="16"/>
+<wire x1="147.96403125" y1="3.302" x2="158.369" y2="13.70696875" width="0.2032" layer="16"/>
+<wire x1="158.369" y1="62.357" x2="157.988" y2="62.738" width="0.2032" layer="16"/>
 <via x="157.988" y="62.738" extent="1-16" drill="0.35"/>
-<wire x1="157.988" y1="62.738" x2="144.9" y2="75.826" width="0.2032" layer="1"/>
+<wire x1="144.9" y1="75.826" x2="155.321" y2="65.405" width="0.2032" layer="1"/>
 <wire x1="144.9" y1="75.826" x2="92.456" y2="75.826" width="0.2032" layer="1"/>
-<wire x1="158.115" y1="13.45296875" x2="158.115" y2="62.611" width="0.2032" layer="16"/>
+<wire x1="158.369" y1="13.70696875" x2="158.369" y2="62.357" width="0.2032" layer="16"/>
 <wire x1="66.294" y1="69.596" x2="48.602" y2="69.596" width="0.2032" layer="1"/>
 <wire x1="70.564" y1="75.692" x2="67.056" y2="72.184" width="0.2032" layer="1"/>
 <wire x1="67.056" y1="70.358" x2="66.294" y2="69.596" width="0.2032" layer="1"/>
@@ -1745,6 +1745,9 @@ maxErrors = 50
 <wire x1="103.886" y1="7.366" x2="103.902" y2="7.382" width="0.2032" layer="1"/>
 <wire x1="70.564" y1="75.692" x2="70.698" y2="75.826" width="0.2032" layer="1"/>
 <wire x1="70.698" y1="75.826" x2="92.456" y2="75.826" width="0.2032" layer="1"/>
+<wire x1="155.321" y1="65.405" x2="155.321" y2="63.119" width="0.2032" layer="1"/>
+<wire x1="155.321" y1="63.119" x2="155.702" y2="62.738" width="0.2032" layer="1"/>
+<wire x1="155.702" y1="62.738" x2="157.988" y2="62.738" width="0.2032" layer="1"/>
 </signal>
 <signal name="PROG_2">
 <contactref element="PXC-8-RA-1778683" pad="6"/>
@@ -1752,8 +1755,8 @@ maxErrors = 50
 <signal name="CAN_H">
 <contactref element="CAN_DEBUG" pad="3"/>
 <contactref element="R5" pad="1"/>
-<contactref element="U$9" pad="10"/>
-<contactref element="ESC_CONTROL1" pad="5"/>
+<contactref element="DATA_CON_CONN" pad="10"/>
+<contactref element="ESC_CONTROLLER" pad="5"/>
 <contactref element="PI_SHIELD_CONN1" pad="13"/>
 <wire x1="119.888" y1="87.63" x2="119.888" y2="86.106" width="0.2032" layer="16"/>
 <wire x1="128.778" y1="77.216" x2="149.352" y2="77.216" width="0.2032" layer="16"/>
@@ -1768,9 +1771,8 @@ maxErrors = 50
 <wire x1="151.384" y1="75.184" x2="151.384" y2="19.812" width="0.2032" layer="16"/>
 <wire x1="19.799" y1="79.978" x2="52.698" y2="79.978" width="0.2032" layer="1"/>
 <wire x1="52.698" y1="79.978" x2="56.222" y2="76.454" width="0.2032" layer="1"/>
-<wire x1="119.888" y1="87.63" x2="119.634" y2="87.63" width="0.2032" layer="1"/>
-<wire x1="119.634" y1="87.63" x2="118.364" y2="88.9" width="0.2032" layer="1"/>
-<wire x1="118.364" y1="88.9" x2="61.976" y2="88.9" width="0.2032" layer="1"/>
+<wire x1="119.888" y1="87.63" x2="118.618" y2="88.9" width="0.2032" layer="1"/>
+<wire x1="118.618" y1="88.9" x2="61.976" y2="88.9" width="0.2032" layer="1"/>
 <wire x1="56.388" y1="94.488" x2="55.118" y2="94.488" width="0.2032" layer="1"/>
 <wire x1="55.118" y1="94.488" x2="53.768" y2="93.138" width="0.2032" layer="1"/>
 <wire x1="53.768" y1="93.138" x2="53.768" y2="92.964" width="0.2032" layer="1"/>
@@ -1790,8 +1792,8 @@ maxErrors = 50
 <signal name="CAN_L">
 <contactref element="CAN_DEBUG" pad="2"/>
 <contactref element="R6" pad="2"/>
-<contactref element="U$9" pad="11"/>
-<contactref element="ESC_CONTROL1" pad="7"/>
+<contactref element="DATA_CON_CONN" pad="11"/>
+<contactref element="ESC_CONTROLLER" pad="7"/>
 <contactref element="PI_SHIELD_CONN1" pad="14"/>
 <wire x1="105.902" y1="9.382" x2="105.902" y2="16.494" width="0.2032" layer="1"/>
 <wire x1="105.902" y1="16.494" x2="106.172" y2="16.764" width="0.2032" layer="1"/>
@@ -2361,8 +2363,8 @@ maxErrors = 50
 <wire x1="36.83" y1="52.714" x2="36.83" y2="59.24" width="0.762" layer="1"/>
 </signal>
 <signal name="12V_L">
-<contactref element="PXC-8-RA-1" pad="8"/>
-<contactref element="PXC-8-RA-1" pad="7"/>
+<contactref element="SOLENOID" pad="8"/>
+<contactref element="SOLENOID" pad="7"/>
 <contactref element="U$8" pad="07"/>
 <wire x1="70.316" y1="87.542" x2="68.922" y2="87.542" width="0.762" layer="16"/>
 <wire x1="68.072" y1="88.392" x2="68.922" y2="87.542" width="0.762" layer="16"/>
@@ -2399,7 +2401,7 @@ maxErrors = 50
 <wire x1="135.128" y1="90.17" x2="132.588" y2="90.17" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL1_1">
-<contactref element="PXC-8-RA-1" pad="6"/>
+<contactref element="SOLENOID" pad="6"/>
 <contactref element="PI_SHIELD_CONN1" pad="1"/>
 <wire x1="75.316" y1="87.542" x2="85.388" y2="77.47" width="0.762" layer="1"/>
 <wire x1="85.388" y1="77.47" x2="127.508" y2="77.47" width="0.762" layer="1"/>
@@ -2407,7 +2409,7 @@ maxErrors = 50
 <wire x1="135.128" y1="85.09" x2="135.128" y2="87.63" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL2_1">
-<contactref element="PXC-8-RA-1" pad="5"/>
+<contactref element="SOLENOID" pad="5"/>
 <contactref element="PI_SHIELD_CONN1" pad="3"/>
 <wire x1="77.816" y1="87.542" x2="86.618" y2="78.74" width="0.762" layer="1"/>
 <wire x1="86.618" y1="78.74" x2="125.984" y2="78.74" width="0.762" layer="1"/>
@@ -2415,7 +2417,7 @@ maxErrors = 50
 <wire x1="132.588" y1="85.344" x2="132.588" y2="87.63" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL3_1">
-<contactref element="PXC-8-RA-1" pad="4"/>
+<contactref element="SOLENOID" pad="4"/>
 <contactref element="PI_SHIELD_CONN1" pad="5"/>
 <wire x1="80.316" y1="87.542" x2="87.594" y2="80.264" width="0.762" layer="1"/>
 <wire x1="87.594" y1="80.264" x2="124.714" y2="80.264" width="0.762" layer="1"/>
@@ -2423,7 +2425,7 @@ maxErrors = 50
 <wire x1="130.048" y1="85.598" x2="130.048" y2="87.63" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL4_1">
-<contactref element="PXC-8-RA-1" pad="3"/>
+<contactref element="SOLENOID" pad="3"/>
 <contactref element="PI_SHIELD_CONN1" pad="7"/>
 <wire x1="82.816" y1="87.542" x2="88.57" y2="81.788" width="0.762" layer="1"/>
 <wire x1="88.57" y1="81.788" x2="124.46" y2="81.788" width="0.762" layer="1"/>
@@ -2431,7 +2433,7 @@ maxErrors = 50
 <wire x1="127.508" y1="84.836" x2="127.508" y2="87.63" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL5_1">
-<contactref element="PXC-8-RA-1" pad="2"/>
+<contactref element="SOLENOID" pad="2"/>
 <contactref element="PI_SHIELD_CONN1" pad="9"/>
 <wire x1="85.316" y1="87.542" x2="89.546" y2="83.312" width="0.762" layer="1"/>
 <wire x1="121.92" y1="83.312" x2="124.968" y2="86.36" width="0.762" layer="1"/>
@@ -2439,7 +2441,7 @@ maxErrors = 50
 <wire x1="89.546" y1="83.312" x2="121.92" y2="83.312" width="0.762" layer="1"/>
 </signal>
 <signal name="SOL6_1">
-<contactref element="PXC-8-RA-1" pad="1"/>
+<contactref element="SOLENOID" pad="1"/>
 <contactref element="PI_SHIELD_CONN1" pad="11"/>
 <wire x1="87.816" y1="87.542" x2="90.776" y2="84.582" width="0.762" layer="1"/>
 <wire x1="90.776" y1="84.582" x2="120.65" y2="84.582" width="0.762" layer="1"/>
@@ -2448,7 +2450,7 @@ maxErrors = 50
 </signal>
 <signal name="NRST_4">
 <contactref element="D4" pad="A"/>
-<contactref element="U$9" pad="13"/>
+<contactref element="DATA_CON_CONN" pad="13"/>
 <wire x1="16.777" y1="83.978" x2="18.562975" y2="83.978" width="0.2032" layer="1"/>
 <wire x1="18.562975" y1="83.978" x2="19.690975" y2="85.106" width="0.2032" layer="1"/>
 <wire x1="38.084" y1="85.106" x2="19.690975" y2="85.106" width="0.2032" layer="1"/>
@@ -2487,7 +2489,7 @@ maxErrors = 50
 </signal>
 <signal name="DATA">
 <contactref element="U$8" pad="08"/>
-<contactref element="U$9" pad="4"/>
+<contactref element="DATA_CON_CONN" pad="4"/>
 <wire x1="4.318" y1="92.456" x2="4.318" y2="93.726" width="0.2032" layer="1"/>
 <wire x1="6.096" y1="95.504" x2="27.686" y2="95.504" width="0.2032" layer="1"/>
 <wire x1="25.972" y1="73.978" x2="19.799" y2="73.978" width="0.2032" layer="16"/>
@@ -2500,7 +2502,7 @@ maxErrors = 50
 </signal>
 <signal name="ALERT_1">
 <contactref element="U$8" pad="09"/>
-<contactref element="U$9" pad="14"/>
+<contactref element="DATA_CON_CONN" pad="14"/>
 <wire x1="6.858" y1="92.456" x2="6.858" y2="92.964" width="0.2032" layer="1"/>
 <wire x1="6.858" y1="92.964" x2="8.636" y2="94.742" width="0.2032" layer="1"/>
 <wire x1="8.636" y1="94.742" x2="25.908" y2="94.742" width="0.2032" layer="1"/>
@@ -2518,7 +2520,7 @@ maxErrors = 50
 </signal>
 <signal name="ALERT_2">
 <contactref element="U$8" pad="10"/>
-<contactref element="U$9" pad="12"/>
+<contactref element="DATA_CON_CONN" pad="12"/>
 <wire x1="9.398" y1="92.456" x2="9.398" y2="93.218" width="0.2032" layer="1"/>
 <wire x1="9.398" y1="93.218" x2="10.16" y2="93.98" width="0.2032" layer="1"/>
 <wire x1="10.16" y1="93.98" x2="24.384" y2="93.98" width="0.2032" layer="1"/>
@@ -2534,7 +2536,7 @@ maxErrors = 50
 </signal>
 <signal name="CLK">
 <contactref element="U$8" pad="11"/>
-<contactref element="U$9" pad="5"/>
+<contactref element="DATA_CON_CONN" pad="5"/>
 <wire x1="11.938" y1="92.456" x2="10.668" y2="91.186" width="0.2032" layer="1"/>
 <wire x1="11.43" y1="85.344" x2="12.7" y2="85.344" width="0.2032" layer="1"/>
 <wire x1="12.7" y1="85.344" x2="12.954" y2="85.09" width="0.2032" layer="1"/>
@@ -2546,7 +2548,7 @@ maxErrors = 50
 </signal>
 <signal name="C2_1">
 <contactref element="U$8" pad="12"/>
-<contactref element="U$9" pad="9"/>
+<contactref element="DATA_CON_CONN" pad="9"/>
 <wire x1="14.478" y1="92.456" x2="15.748" y2="91.186" width="0.2032" layer="16"/>
 <wire x1="15.748" y1="91.186" x2="15.748" y2="87.376" width="0.2032" layer="16"/>
 <via x="15.748" y="87.376" extent="1-16" drill="0.35"/>
@@ -2556,7 +2558,7 @@ maxErrors = 50
 </signal>
 <signal name="C2_2">
 <contactref element="U$8" pad="13"/>
-<contactref element="U$9" pad="7"/>
+<contactref element="DATA_CON_CONN" pad="7"/>
 <wire x1="17.018" y1="92.456" x2="18.288" y2="91.186" width="0.2032" layer="16"/>
 <wire x1="15.113" y1="78.613" x2="15.748" y2="77.978" width="0.2032" layer="16"/>
 <wire x1="15.748" y1="77.978" x2="16.777" y2="77.978" width="0.2032" layer="16"/>
@@ -2605,9 +2607,9 @@ maxErrors = 50
 <contactref element="C11" pad="+"/>
 <contactref element="C12" pad="+"/>
 <contactref element="D6" pad="A"/>
-<contactref element="J3" pad="01"/>
-<contactref element="J4" pad="02"/>
-<contactref element="J4" pad="01"/>
+<contactref element="ROBOT_CONN" pad="01"/>
+<contactref element="7.4V_CONN" pad="02"/>
+<contactref element="7.4V_CONN" pad="01"/>
 <wire x1="6.858" y1="9.398" x2="6.858" y2="11.938" width="2.286" layer="1"/>
 <wire x1="6.858" y1="11.938" x2="38.1" y2="11.938" width="2.286" layer="1"/>
 <wire x1="38.1" y1="11.938" x2="43.688" y2="17.526" width="2.286" layer="1"/>
@@ -2617,9 +2619,9 @@ maxErrors = 50
 <wire x1="65.278" y1="17.408" x2="77.724" y2="17.408" width="2.286" layer="1"/>
 <wire x1="77.724" y1="17.408" x2="77.978" y2="17.154" width="2.54" layer="1"/>
 <wire x1="77.978" y1="17.154" x2="78.35" y2="17.526" width="2.54" layer="1"/>
-<wire x1="82.042" y1="17.526" x2="94.488" y2="29.972" width="2.286" layer="1"/>
-<wire x1="78.35" y1="17.526" x2="82.042" y2="17.526" width="2.286" layer="1"/>
-<wire x1="94.488" y1="29.972" x2="144.526" y2="29.972" width="2.286" layer="1"/>
+<wire x1="86.614" y1="17.526" x2="99.06" y2="29.972" width="2.286" layer="1"/>
+<wire x1="78.35" y1="17.526" x2="86.614" y2="17.526" width="2.286" layer="1"/>
+<wire x1="99.06" y1="29.972" x2="144.526" y2="29.972" width="2.286" layer="1"/>
 <wire x1="145.796" y1="25.654" x2="148.59" y2="25.654" width="0.254" layer="16"/>
 <wire x1="148.59" y1="25.654" x2="149.098" y2="26.162" width="0.254" layer="16"/>
 <wire x1="149.098" y1="26.162" x2="149.098" y2="30.48" width="0.254" layer="16"/>
@@ -2632,9 +2634,9 @@ maxErrors = 50
 <contactref element="C10" pad="-"/>
 <contactref element="C12" pad="-"/>
 <contactref element="C11" pad="-"/>
-<contactref element="J3" pad="02"/>
-<contactref element="J4" pad="03"/>
-<contactref element="J4" pad="04"/>
+<contactref element="ROBOT_CONN" pad="02"/>
+<contactref element="7.4V_CONN" pad="03"/>
+<contactref element="7.4V_CONN" pad="04"/>
 <wire x1="6.858" y1="6.858" x2="6.858" y2="4.318" width="2.286" layer="16"/>
 <wire x1="6.858" y1="4.318" x2="26.162" y2="4.318" width="2.286" layer="16"/>
 <via x="26.162" y="4.318" extent="1-16" drill="2.54"/>
@@ -2650,10 +2652,10 @@ maxErrors = 50
 <wire x1="100.076" y1="23.114" x2="145.796" y2="23.114" width="2.286" layer="1"/>
 </signal>
 <signal name="SWDIO">
-<contactref element="ESC_CONTROL1" pad="9"/>
+<contactref element="ESC_CONTROLLER" pad="9"/>
 </signal>
 <signal name="GND">
-<contactref element="ESC_CONTROL1" pad="10"/>
+<contactref element="ESC_CONTROLLER" pad="10"/>
 <contactref element="R3" pad="2"/>
 <contactref element="R7" pad="2"/>
 <contactref element="R1" pad="2"/>
@@ -2688,8 +2690,8 @@ maxErrors = 50
 <contactref element="U$8" pad="05"/>
 <contactref element="U$8" pad="06"/>
 <contactref element="PXC-8-RA-1778683" pad="8"/>
-<contactref element="U$9" pad="2"/>
-<contactref element="U$9" pad="3"/>
+<contactref element="DATA_CON_CONN" pad="2"/>
+<contactref element="DATA_CON_CONN" pad="3"/>
 <contactref element="C1" pad="2"/>
 <contactref element="U$7" pad="1"/>
 <contactref element="CAN_DEBUG" pad="1"/>
@@ -2708,21 +2710,21 @@ maxErrors = 50
 <via x="44.196" y="92.964" extent="1-16" drill="0.8"/>
 </signal>
 <signal name="SWCLK">
-<contactref element="ESC_CONTROL1" pad="11"/>
+<contactref element="ESC_CONTROLLER" pad="11"/>
 </signal>
 <signal name="ESC_ID">
-<contactref element="ESC_CONTROL1" pad="12"/>
+<contactref element="ESC_CONTROLLER" pad="12"/>
 </signal>
 <signal name="ROBOT_ARM">
 <contactref element="PI_SHIELD_CONN1" pad="15"/>
-<contactref element="J3" pad="03"/>
+<contactref element="ROBOT_CONN" pad="03"/>
 <wire x1="117.348" y1="87.63" x2="117.348" y2="75.184" width="0.2032" layer="16"/>
 <wire x1="117.348" y1="75.184" x2="118.618" y2="73.914" width="0.2032" layer="16"/>
-<wire x1="118.618" y1="73.914" x2="148.082" y2="73.914" width="0.2032" layer="16"/>
+<wire x1="118.618" y1="73.914" x2="144.526" y2="73.914" width="0.2032" layer="16"/>
 <wire x1="150.368" y1="21.59" x2="149.352" y2="20.574" width="0.2032" layer="16"/>
 <wire x1="149.352" y1="20.574" x2="145.796" y2="20.574" width="0.2032" layer="16"/>
-<wire x1="150.368" y1="71.628" x2="150.368" y2="21.59" width="0.2032" layer="16"/>
-<wire x1="148.082" y1="73.914" x2="150.368" y2="71.628" width="0.2032" layer="16"/>
+<wire x1="150.368" y1="68.072" x2="150.368" y2="21.59" width="0.2032" layer="16"/>
+<wire x1="144.526" y1="73.914" x2="150.368" y2="68.072" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D6" pad="K"/>
