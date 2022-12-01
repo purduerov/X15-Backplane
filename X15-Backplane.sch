@@ -2988,9 +2988,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </classes>
 <parts>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="PXC-8-RA-1778683" library="X15-Backplane Parts" deviceset="PXC-8-RA-1778683" device="" package3d_urn="urn:adsk.eagle:package:25224885/2">
-<attribute name="SPICEPREFIX" value="X"/>
-</part>
 <part name="U$4" library="X15-Backplane Parts" deviceset="BACKPLANE_ESC_ADAPTER_PWR" device="BKP"/>
 <part name="U$5" library="X15-Backplane Parts" deviceset="BACKPLANE_ESC_ADAPTER_PWR" device="BKP"/>
 <part name="U$6" library="X15-Backplane Parts" deviceset="BACKPLANE_ESC_ADAPTER_PWR" device="BKP"/>
@@ -3025,11 +3022,11 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="ROBOT_CONN" library="X15-Backplane Parts" deviceset="IPL1-103-01-L-S-K" device=""/>
 <part name="7.4V_CONN" library="X15-Backplane Parts" deviceset="IPL1-104-01-X-S-K" device=""/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="150,000,000"/>
 <part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1500"/>
 <part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1500"/>
+<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1500"/>
 </parts>
 <sheets>
 <sheet>
@@ -3050,9 +3047,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <attribute name="DRAWING_NAME" x="186.69" y="19.05" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="186.69" y="13.97" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="200.66" y="8.89" size="2.54" layer="94" font="vector"/>
-</instance>
-<instance part="PXC-8-RA-1778683" gate="G$1" x="38.1" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.02" y="106.68" size="1.778" layer="95"/>
 </instance>
 <instance part="U$4" gate="G$1" x="83.82" y="124.46" smashed="yes">
 <attribute name="NAME" x="81.28" y="121.92" size="1.27" layer="95" rot="R90"/>
@@ -3133,32 +3127,11 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <busses>
 </busses>
 <nets>
-<net name="SWDIO_IN" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="111.76" x2="17.78" y2="111.76" width="0.1524" layer="91"/>
-<label x="17.78" y="111.76" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SWDIO_4" class="0">
 <segment>
 <pinref part="DATA_CON_CONN" gate="G$1" pin="6"/>
 <wire x1="160.02" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="172.72" y="81.28" size="1.778" layer="95" align="bottom-right"/>
-</segment>
-</net>
-<net name="PROG_3" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="5"/>
-<wire x1="30.48" y1="121.92" x2="17.78" y2="121.92" width="0.1524" layer="91"/>
-<label x="20.32" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PROG_1" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="7"/>
-<wire x1="30.48" y1="127" x2="17.78" y2="127" width="0.1524" layer="91"/>
-<label x="20.32" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK_4" class="0">
@@ -3168,19 +3141,7 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <label x="172.72" y="78.74" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
-<net name="SWCLK_IN" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
-<label x="17.78" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="3V3" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="4"/>
-<wire x1="30.48" y1="119.38" x2="17.78" y2="119.38" width="0.1524" layer="91"/>
-<label x="20.32" y="119.38" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="149.86" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
@@ -3204,11 +3165,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="3"/>
-<wire x1="30.48" y1="116.84" x2="17.78" y2="116.84" width="0.1524" layer="91"/>
-<label x="20.32" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="160.02" y1="137.16" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
@@ -3222,13 +3178,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <wire x1="170.18" y1="127" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <junction x="170.18" y="137.16"/>
 <label x="185.42" y="137.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PROG_2" class="0">
-<segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="6"/>
-<wire x1="30.48" y1="124.46" x2="17.78" y2="124.46" width="0.1524" layer="91"/>
-<label x="20.32" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -3561,11 +3510,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <label x="208.28" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PXC-8-RA-1778683" gate="G$1" pin="8"/>
-<wire x1="30.48" y1="129.54" x2="17.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="20.32" y="129.54" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DATA_CON_CONN" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="86.36" x2="172.72" y2="86.36" width="0.1524" layer="91"/>
 <label x="172.72" y="86.36" size="1.778" layer="95" align="bottom-right"/>
@@ -3649,10 +3593,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <attribute name="NAME" x="187.071" y="112.268" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="192.405" y="112.268" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="190.5" y="104.14" smashed="yes" rot="R270">
-<attribute name="NAME" x="192.024" y="104.14" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="188.976" y="104.14" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
-</instance>
 <instance part="D7" gate="G$1" x="193.04" y="68.58" smashed="yes">
 <attribute name="NAME" x="189.611" y="64.008" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="194.945" y="64.008" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
@@ -3668,6 +3608,10 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <instance part="R7" gate="G$1" x="233.68" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="235.204" y="55.88" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="232.156" y="55.88" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+</instance>
+<instance part="R1" gate="G$1" x="190.5" y="104.14" smashed="yes" rot="R270">
+<attribute name="NAME" x="192.024" y="104.14" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="188.976" y="104.14" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -3885,10 +3829,10 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <label x="241.3" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="190.5" y1="99.06" x2="190.5" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="93.98" x2="198.12" y2="93.98" width="0.1524" layer="91"/>
 <label x="198.12" y="93.98" size="1.778" layer="95"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
@@ -3938,8 +3882,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="111.76" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$3" class="0">
