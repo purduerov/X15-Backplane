@@ -544,242 +544,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-DiscreteSemi" urn="urn:adsk.eagle:library:514">
-<description>&lt;h3&gt;SparkFun Discrete Semiconductors&lt;/h3&gt;
-This library contains diodes, optoisolators, TRIACs, MOSFETs, transistors, etc. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOD-323" urn="urn:adsk.eagle:footprint:38400/1" library_version="1">
-<description>SOD-323 (Small Outline Diode)</description>
-<wire x1="-1.77" y1="0.625" x2="-1.77" y2="-0.625" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="0.625" x2="0.9" y2="0.625" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.625" x2="0.9" y2="-0.625" width="0.2032" layer="21"/>
-<smd name="C" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="A" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOD-523" urn="urn:adsk.eagle:footprint:38401/1" library_version="1">
-<description>SOD-523 (Small Outline Diode)</description>
-<smd name="C" x="0.7" y="0" dx="0.4" dy="0.4" layer="1"/>
-<smd name="A" x="-0.7" y="0" dx="0.4" dy="0.4" layer="1"/>
-<wire x1="-0.625" y1="-0.425" x2="0.625" y2="-0.425" width="0.127" layer="21"/>
-<wire x1="0.625" y1="0.425" x2="-0.625" y2="0.425" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-0.4" x2="0.3" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="0.3" y1="-0.4" x2="0.6" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="0.6" y1="-0.4" x2="0.6" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="0.6" y1="-0.1" x2="0.6" y2="0.1" width="0.127" layer="51"/>
-<wire x1="0.6" y1="0.1" x2="0.6" y2="0.4" width="0.127" layer="51"/>
-<wire x1="0.6" y1="0.4" x2="0.3" y2="0.4" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0.4" x2="-0.6" y2="0.4" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="0.4" x2="-0.6" y2="0.1" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="0.1" x2="-0.6" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="-0.1" x2="-0.6" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="0.6" y1="0.1" x2="0.8" y2="0.1" width="0.127" layer="51"/>
-<wire x1="0.8" y1="0.1" x2="0.8" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-0.1" x2="0.6" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="-0.1" x2="-0.8" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="-0.6" y1="0.1" x2="-0.8" y2="0.1" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="0.1" x2="-0.8" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="0.3" y1="0.4" x2="0.3" y2="-0.4" width="0.127" layer="51"/>
-<wire x1="1.1176" y1="0.3048" x2="1.1176" y2="-0.3048" width="0.2032" layer="21"/>
-</package>
-<package name="SMA-DIODE" urn="urn:adsk.eagle:footprint:38402/1" library_version="1">
-<description>&lt;B&gt;Diode&lt;/B&gt;
-&lt;p&gt;Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140&lt;/p&gt;
-&lt;p&gt;SMA is the smallest package in the DO-214 standard (DO-214AC)&lt;/p&gt;</description>
-<wire x1="-2.3" y1="1" x2="-2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="1.45" x2="2.3" y2="1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="1.45" x2="2.3" y2="1" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1" x2="2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="2.3" y1="-1.45" x2="-2.3" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="-2.3" y1="-1.45" x2="-2.3" y2="-1" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1" x2="3.175" y2="-1" width="0.2032" layer="21"/>
-<smd name="A" x="-2.15" y="0" dx="1.27" dy="1.47" layer="1" rot="R180"/>
-<smd name="C" x="2.15" y="0" dx="1.27" dy="1.47" layer="1"/>
-<text x="0" y="1.651" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-</package>
-<package name="SOT23-3" urn="urn:adsk.eagle:footprint:38398/1" library_version="1">
-<description>SOT23-3</description>
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-1.651" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
-<text x="1.651" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOD-323" urn="urn:adsk.eagle:package:38441/1" type="box" library_version="1">
-<description>SOD-323 (Small Outline Diode)</description>
-<packageinstances>
-<packageinstance name="SOD-323"/>
-</packageinstances>
-</package3d>
-<package3d name="SOD-523" urn="urn:adsk.eagle:package:38442/1" type="box" library_version="1">
-<description>SOD-523 (Small Outline Diode)</description>
-<packageinstances>
-<packageinstance name="SOD-523"/>
-</packageinstances>
-</package3d>
-<package3d name="SMA-DIODE" urn="urn:adsk.eagle:package:38443/1" type="box" library_version="1">
-<description>Diode
-Basic SMA packaged diode. Good for reverse polarization protection. Common part #: MBRA140
-SMA is the smallest package in the DO-214 standard (DO-214AC)</description>
-<packageinstances>
-<packageinstance name="SMA-DIODE"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23-3" urn="urn:adsk.eagle:package:38446/1" type="box" library_version="1">
-<description>SOT23-3</description>
-<packageinstances>
-<packageinstance name="SOT23-3"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="DIODE-SCHOTTKY" urn="urn:adsk.eagle:symbol:38399/1" library_version="1">
-<description>&lt;h3&gt; Schottky Diode&lt;/h3&gt;
-Diode with low voltage drop</description>
-<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="1.27" x2="1.778" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-1.27" x2="0.762" y2="-1.27" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="0.762" y2="-1.016" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="1.27" x2="1.778" y2="1.016" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.032" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.032" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
-<pin name="A" x="-2.54" y="0" visible="off" length="point" direction="pas"/>
-<pin name="C" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.27" y="1.27"/>
-<vertex x="1.27" y="0"/>
-<vertex x="-1.27" y="-1.27"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DIODE-SCHOTTKY" urn="urn:adsk.eagle:component:38469/1" prefix="D" library_version="1">
-<description>&lt;h3&gt;Schottky diode&lt;/h3&gt;
-&lt;p&gt;A Schottky diode is a semiconductor diode which has a low forward voltage drop and a very fast switching action.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="DIODE-SCHOTTKY" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-BAT20J" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11623"/>
-<attribute name="VALUE" value="1A/23V/620mV"/>
-</technology>
-</technologies>
-</device>
-<device name="-RB751S40" package="SOD-523">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38442/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-11018"/>
-<attribute name="VALUE" value="120mA/40V/370mV"/>
-</technology>
-</technologies>
-</device>
-<device name="-SS14" package="SMA-DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38443/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08053"/>
-<attribute name="VALUE" value="1A/40V/500mV"/>
-</technology>
-</technologies>
-</device>
-<device name="-PMEG4005EJ" package="SOD-323">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38441/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-10955"/>
-<attribute name="VALUE" value="0.5A/40V/420mV"/>
-</technology>
-</technologies>
-</device>
-<device name="-B340A" package="SMA-DIODE">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="C"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38443/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-09886"/>
-<attribute name="VALUE" value="3A/40V/500mV"/>
-</technology>
-</technologies>
-</device>
-<device name="-ZLLS500" package="SOT23-3">
-<connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38446/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="DIO-08411"/>
-<attribute name="VALUE" value="700mA/40V/533mV"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
 <description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
 This library contains capacitors. 
@@ -1721,24 +1485,6 @@ LED</description>
 <wire x1="66.734" y1="40.317" x2="66.734" y2="34.867" width="0.05" layer="39"/>
 <wire x1="66.734" y1="34.867" x2="35.374" y2="34.867" width="0.05" layer="39"/>
 </package>
-<package name="DISCRETECOMPONENTS_SW_2512" urn="urn:adsk.eagle:footprint:24384572/1">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="51"/>
-<wire x1="-4.354" y1="1.983" x2="4.354" y2="1.983" width="0.0508" layer="39"/>
-<wire x1="4.354" y1="1.983" x2="4.354" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="4.354" y1="-1.983" x2="-4.354" y2="-1.983" width="0.0508" layer="39"/>
-<wire x1="-4.354" y1="-1.983" x2="-4.354" y2="1.983" width="0.0508" layer="39"/>
-<rectangle x1="-3.2004" y1="-1.5494" x2="-2.3505" y2="1.5507" layer="51"/>
-<rectangle x1="2.3622" y1="-1.5494" x2="3.2121" y2="1.5507" layer="51"/>
-<rectangle x1="-0.5001" y1="-1" x2="0.5001" y2="1" layer="35"/>
-<smd name="1" x="-3" y="0" dx="2.5" dy="1.6" layer="1"/>
-<smd name="2" x="3" y="0" dx="2.5" dy="1.6" layer="1"/>
-<text x="0" y="1.905" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.905" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="21"/>
-<wire x1="-2.362" y1="-1.473" x2="2.387" y2="-1.473" width="0.1524" layer="21"/>
-</package>
 <package name="SAMTEC_IPL1-107-01-X-D-K(B-D)">
 <wire x1="-9.65" y1="3.675" x2="-9.65" y2="-3.675" width="0.1" layer="51"/>
 <wire x1="-9.65" y1="-3.675" x2="-9.0785" y2="-3.675" width="0.1" layer="51"/>
@@ -2383,12 +2129,6 @@ LED</description>
 <packageinstance name="PXC-8-RA-1778683"/>
 </packageinstances>
 </package3d>
-<package3d name="DISCRETECOMPONENTS_SW_2512" urn="urn:adsk.eagle:package:24384574/2" type="box">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
-<packageinstances>
-<packageinstance name="DISCRETECOMPONENTS_SW_2512"/>
-</packageinstances>
-</package3d>
 <package3d name="MPPT-10-01-01-L-RA-SD" urn="urn:adsk.eagle:package:25115828/2" type="model">
 <packageinstances>
 <packageinstance name="MPPT-10-01-01-L-RA-SD"/>
@@ -2469,11 +2209,6 @@ LED</description>
 <wire x1="2.54" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="95" rot="R90">&gt;NAME</text>
-</symbol>
-<symbol name="DISCRETECOMPONENTS_SWITCH">
-<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<pin name="P$1" x="-7.62" y="0" visible="pad" length="middle" swaplevel="1"/>
-<pin name="P$2" x="7.62" y="0" visible="pad" length="middle" swaplevel="1" rot="R180"/>
 </symbol>
 <symbol name="IPL1-107-01-X-D-K">
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
@@ -2735,26 +2470,6 @@ Source: &lt;a href="http://www.nichicon.co.jp/english/products/pdfs/e-ucm.pdf"&g
 </device>
 </devices>
 </deviceset>
-<deviceset name="DISCRETECOMPONENTS_SWITCH" uservalue="yes">
-<description>TE Connectivity FSM2JMTR Switch</description>
-<gates>
-<gate name="G$1" symbol="DISCRETECOMPONENTS_SWITCH" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="DISCRETECOMPONENTS_SW_2512">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24384574/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="BACKPLANE-DISTRIBUTION">
 <gates>
 <gate name="G$1" symbol="IPL1-107-01-X-D-K" x="0" y="0"/>
@@ -2977,6 +2692,139 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="X15-Pi-Shield-Parts">
+<packages>
+<package name="16-SOIC">
+<circle x="-4.445" y="5.045" radius="0.1" width="0.2" layer="21"/>
+<circle x="-4.445" y="5.045" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-2" y1="5" x2="2" y2="5" width="0.127" layer="51"/>
+<wire x1="-2" y1="-5" x2="2" y2="-5" width="0.127" layer="51"/>
+<wire x1="-2" y1="5.065" x2="2" y2="5.065" width="0.127" layer="21"/>
+<wire x1="-2" y1="-5.065" x2="2" y2="-5.065" width="0.127" layer="21"/>
+<wire x1="-2" y1="5" x2="-2" y2="-5" width="0.127" layer="51"/>
+<wire x1="2" y1="5" x2="2" y2="-5" width="0.127" layer="51"/>
+<wire x1="-3.71" y1="5.25" x2="3.71" y2="5.25" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="-5.25" x2="3.71" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="-3.71" y1="5.25" x2="-3.71" y2="-5.25" width="0.05" layer="39"/>
+<wire x1="3.71" y1="5.25" x2="3.71" y2="-5.25" width="0.05" layer="39"/>
+<text x="-3.97" y="-5.242" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-3.97" y="5.242" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-2.475" y="4.445" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="2" x="-2.475" y="3.175" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="3" x="-2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="4" x="-2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="5" x="-2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="6" x="-2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="7" x="-2.475" y="-3.175" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="8" x="-2.475" y="-4.445" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="9" x="2.475" y="-4.445" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="10" x="2.475" y="-3.175" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="11" x="2.475" y="-1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="12" x="2.475" y="-0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="13" x="2.475" y="0.635" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="14" x="2.475" y="1.905" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="15" x="2.475" y="3.175" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+<smd name="16" x="2.475" y="4.445" dx="1.97" dy="0.6" layer="1" roundness="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TRANSISTOR-ARRAY7">
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="22.86" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.1524" layer="94"/>
+<pin name="IN1" x="-15.24" y="17.78" length="middle"/>
+<pin name="IN2" x="-15.24" y="12.7" length="middle"/>
+<pin name="IN3" x="-15.24" y="7.62" length="middle"/>
+<pin name="IN4" x="-15.24" y="2.54" length="middle"/>
+<pin name="IN5" x="-15.24" y="-2.54" length="middle"/>
+<pin name="IN6" x="-15.24" y="-7.62" length="middle"/>
+<pin name="IN7" x="-15.24" y="-12.7" length="middle"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.1524" layer="94"/>
+<pin name="GND" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="COM" x="0" y="27.94" length="middle" rot="R270"/>
+<pin name="OUT7" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="OUT6" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="OUT5" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT4" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="OUT3" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="OUT2" x="15.24" y="12.7" length="middle" rot="R180"/>
+<pin name="OUT1" x="15.24" y="17.78" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ULN2003AD" prefix="U">
+<gates>
+<gate name="G$1" symbol="TRANSISTOR-ARRAY7" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="16-SOIC">
+<connects>
+<connect gate="G$1" pin="COM" pad="9"/>
+<connect gate="G$1" pin="GND" pad="8"/>
+<connect gate="G$1" pin="IN1" pad="1"/>
+<connect gate="G$1" pin="IN2" pad="2"/>
+<connect gate="G$1" pin="IN3" pad="3"/>
+<connect gate="G$1" pin="IN4" pad="4"/>
+<connect gate="G$1" pin="IN5" pad="5"/>
+<connect gate="G$1" pin="IN6" pad="6"/>
+<connect gate="G$1" pin="IN7" pad="7"/>
+<connect gate="G$1" pin="OUT1" pad="16"/>
+<connect gate="G$1" pin="OUT2" pad="15"/>
+<connect gate="G$1" pin="OUT3" pad="14"/>
+<connect gate="G$1" pin="OUT4" pad="13"/>
+<connect gate="G$1" pin="OUT5" pad="12"/>
+<connect gate="G$1" pin="OUT6" pad="11"/>
+<connect gate="G$1" pin="OUT7" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="A1_MIN" value="0.25"/>
+<attribute name="A_MAX" value="1.75"/>
+<attribute name="A_MIN" value="1.75"/>
+<attribute name="A_NOM" value="1.75"/>
+<attribute name="B_MAX" value="0.51"/>
+<attribute name="B_MIN" value="0.33"/>
+<attribute name="B_NOM" value="0.42"/>
+<attribute name="D1_MAX" value=""/>
+<attribute name="D1_MIN" value=""/>
+<attribute name="D1_NOM" value=""/>
+<attribute name="D2_MAX" value="0.0"/>
+<attribute name="DMAX" value=""/>
+<attribute name="DMIN" value=""/>
+<attribute name="DNOM" value=""/>
+<attribute name="D_MAX" value="10.0"/>
+<attribute name="D_MIN" value="9.8"/>
+<attribute name="D_NOM" value="9.9"/>
+<attribute name="E1_MAX" value="4.0"/>
+<attribute name="E1_MIN" value="3.8"/>
+<attribute name="E1_NOM" value="3.9"/>
+<attribute name="E2_MAX" value="0.0"/>
+<attribute name="EMAX" value=""/>
+<attribute name="EMIN" value=""/>
+<attribute name="ENOM" value="1.27"/>
+<attribute name="E_MAX" value="6.2"/>
+<attribute name="E_MIN" value="5.8"/>
+<attribute name="E_NOM" value="6.0"/>
+<attribute name="L1_MAX" value=""/>
+<attribute name="L1_MIN" value=""/>
+<attribute name="L1_NOM" value=""/>
+<attribute name="L_MAX" value="1.27"/>
+<attribute name="L_MIN" value="0.38"/>
+<attribute name="L_NOM" value="0.825"/>
+<attribute name="MANUFACTURER" value="Diodes Inc."/>
+<attribute name="PACKAGE_TYPE" value=""/>
+<attribute name="PINS" value=""/>
+<attribute name="PIN_COUNT" value="16.0"/>
+<attribute name="SNAPEDA_PACKAGE_ID" value="27538"/>
+<attribute name="STANDARD" value="IPC 7351B"/>
+<attribute name="VACANCIES" value=""/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2994,9 +2842,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="SOLENOID" library="X15-Backplane Parts" deviceset="PXC-8-RA-1778683" device="" package3d_urn="urn:adsk.eagle:package:25224885/2">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" package3d_urn="urn:adsk.eagle:package:38441/1" value="0.5A/40V/420mV"/>
-<part name="U$7" library="X15-Backplane Parts" deviceset="DISCRETECOMPONENTS_SWITCH" device="" package3d_urn="urn:adsk.eagle:package:24384574/2"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="DIST_TO_BACKPLANE" library="X15-Backplane Parts" deviceset="MPPT-10-01-01-L-RA-SD" device="" package3d_urn="urn:adsk.eagle:package:25115828/2"/>
 <part name="U$8" library="X15-Backplane Parts" deviceset="BACKPLANE-DISTRIBUTION" device=""/>
 <part name="H1" library="X15-Backplane Parts" deviceset="6-32-HOLE" device="" package3d_urn="urn:adsk.eagle:package:24384748/2"/>
@@ -3027,6 +2872,7 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1500"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1500"/>
+<part name="U1" library="X15-Pi-Shield-Parts" deviceset="ULN2003AD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3059,15 +2905,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </instance>
 <instance part="SOLENOID" gate="G$1" x="35.56" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.48" y="63.5" size="1.778" layer="95"/>
-</instance>
-<instance part="D4" gate="G$1" x="139.7" y="121.92" smashed="yes">
-<attribute name="NAME" x="137.16" y="123.952" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="137.16" y="119.888" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="U$7" gate="G$1" x="170.18" y="119.38" smashed="yes" rot="R90"/>
-<instance part="R4" gate="G$1" x="177.8" y="144.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="179.324" y="144.78" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="176.276" y="144.78" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="DIST_TO_BACKPLANE" gate="G$1" x="220.98" y="101.6" smashed="yes">
 <attribute name="NAME" x="218.44" y="114.808" size="1.778" layer="95" font="vector"/>
@@ -3143,11 +2980,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="149.86" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<label x="177.8" y="154.94" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$8" gate="G$1" pin="3.3V"/>
 <wire x1="218.44" y1="160.02" x2="208.28" y2="160.02" width="0.1524" layer="91"/>
 <label x="208.28" y="160.02" size="1.778" layer="95"/>
@@ -3161,23 +2993,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <pinref part="DATA_CON_CONN" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="86.36" x2="116.84" y2="86.36" width="0.1524" layer="91"/>
 <label x="119.38" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="NRST" class="0">
-<segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="160.02" y1="137.16" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="121.92" x2="160.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="139.7" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
-<junction x="177.8" y="137.16"/>
-<pinref part="U$7" gate="G$1" pin="P$2"/>
-<wire x1="170.18" y1="127" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<junction x="170.18" y="137.16"/>
-<label x="185.42" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN_H" class="0">
@@ -3395,11 +3210,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="NRST_4" class="0">
 <segment>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="124.46" y1="121.92" x2="137.16" y2="121.92" width="0.1524" layer="91"/>
-<label x="124.46" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="DATA_CON_CONN" gate="G$1" pin="13"/>
 <wire x1="129.54" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 <label x="119.38" y="71.12" size="1.778" layer="95"/>
@@ -3525,11 +3335,6 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <label x="76.2" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
-<wire x1="170.18" y1="111.76" x2="170.18" y2="109.22" width="0.1524" layer="91"/>
-<label x="170.18" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="CAN_DEBUG" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 <label x="22.86" y="35.56" size="1.778" layer="95"/>
@@ -3613,6 +3418,7 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <attribute name="NAME" x="192.024" y="104.14" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="188.976" y="104.14" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
+<instance part="U1" gate="G$1" x="134.62" y="73.66" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -3688,47 +3494,52 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <wire x1="190.5" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
 <label x="198.12" y="124.46" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="COM"/>
+<wire x1="134.62" y1="101.6" x2="134.62" y2="114.3" width="0.1524" layer="91"/>
+<label x="134.62" y="111.76" size="1.778" layer="95" rot="R90" align="bottom-right"/>
+</segment>
 </net>
 <net name="SOL1_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="14"/>
-<wire x1="66.04" y1="52.07" x2="81.28" y2="52.07" width="0.1524" layer="91"/>
-<label x="78.74" y="52.07" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT1"/>
+<wire x1="149.86" y1="91.44" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
+<label x="160.02" y="91.44" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SOL2_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="16"/>
-<wire x1="66.04" y1="49.53" x2="81.28" y2="49.53" width="0.1524" layer="91"/>
-<label x="78.74" y="49.53" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT2"/>
+<wire x1="149.86" y1="86.36" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
+<label x="160.02" y="86.36" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SOL3_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="18"/>
-<wire x1="66.04" y1="46.99" x2="81.28" y2="46.99" width="0.1524" layer="91"/>
-<label x="78.74" y="46.99" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT3"/>
+<wire x1="149.86" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
+<label x="160.02" y="81.28" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SOL4_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="20"/>
-<wire x1="66.04" y1="44.45" x2="81.28" y2="44.45" width="0.1524" layer="91"/>
-<label x="78.74" y="44.45" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT4"/>
+<wire x1="149.86" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="160.02" y="76.2" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SOL5_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="22"/>
-<wire x1="66.04" y1="41.91" x2="81.28" y2="41.91" width="0.1524" layer="91"/>
-<label x="78.74" y="41.91" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT5"/>
+<wire x1="149.86" y1="71.12" x2="162.56" y2="71.12" width="0.1524" layer="91"/>
+<label x="160.02" y="71.12" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="SOL6_1" class="0">
 <segment>
-<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="24"/>
-<wire x1="66.04" y1="39.37" x2="81.28" y2="39.37" width="0.1524" layer="91"/>
-<label x="78.74" y="39.37" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U1" gate="G$1" pin="OUT6"/>
+<wire x1="149.86" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<label x="160.02" y="66.04" size="1.778" layer="95" align="bottom-right"/>
 </segment>
 </net>
 <net name="5V" class="0">
@@ -3845,6 +3656,11 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <wire x1="50.8" y1="41.91" x2="40.64" y2="41.91" width="0.1524" layer="91"/>
 <label x="43.18" y="41.91" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="134.62" y1="50.8" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="134.62" y="40.64" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
@@ -3917,6 +3733,86 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <pinref part="PI_SHIELD_CONN1" gate="G$1" pin="17"/>
 <wire x1="50.8" y1="46.99" x2="40.64" y2="46.99" width="0.1524" layer="91"/>
 <label x="43.18" y="46.99" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO1" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="14"/>
+<wire x1="66.04" y1="52.07" x2="81.28" y2="52.07" width="0.1524" layer="91"/>
+<label x="78.74" y="52.07" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN1"/>
+<wire x1="119.38" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="109.22" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO2" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="16"/>
+<wire x1="66.04" y1="49.53" x2="81.28" y2="49.53" width="0.1524" layer="91"/>
+<label x="78.74" y="49.53" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN2"/>
+<wire x1="119.38" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+<label x="109.22" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO3" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="18"/>
+<wire x1="66.04" y1="46.99" x2="81.28" y2="46.99" width="0.1524" layer="91"/>
+<label x="78.74" y="46.99" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN3"/>
+<wire x1="119.38" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<label x="109.22" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO4" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="20"/>
+<wire x1="66.04" y1="44.45" x2="81.28" y2="44.45" width="0.1524" layer="91"/>
+<label x="78.74" y="44.45" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN4"/>
+<wire x1="119.38" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<label x="109.22" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO5" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="22"/>
+<wire x1="66.04" y1="41.91" x2="81.28" y2="41.91" width="0.1524" layer="91"/>
+<label x="78.74" y="41.91" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN5"/>
+<wire x1="119.38" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<label x="109.22" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO6" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="24"/>
+<wire x1="66.04" y1="39.37" x2="81.28" y2="39.37" width="0.1524" layer="91"/>
+<label x="78.74" y="39.37" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IN6"/>
+<wire x1="119.38" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
+<label x="109.22" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ROBOT_ARM_2" class="0">
+<segment>
+<pinref part="PI_SHIELD_CONN1" gate="G$1" pin="3"/>
+<wire x1="50.8" y1="34.29" x2="40.64" y2="34.29" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="34.29" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
+<label x="30.48" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
